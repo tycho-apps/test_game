@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Tycho Test Game</Name>
+  <Header>namespace test_game
+{
+    $(ClassDef)
+    
+} // end namespace</Header>
+  <Source>namespace test_game
+{
+
+
+
+} // end namespace</Source>
+  <SrcDir>.</SrcDir>
+  <IncDir>.</IncDir>
+  <HdrIncludes>#include "test_game_abi.h"</HdrIncludes>
+  <SrcIncludes />
+  <ABI />
+</ProjectSettings>

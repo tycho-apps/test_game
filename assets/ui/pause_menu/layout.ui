@@ -1,0 +1,29 @@
+version = 1;
+widget panel pause_menu
+{
+	scale = [ 1, 1, 1 ];
+	trans = [ 0, 0, 0 ];
+	widget_list = [
+		widget button resume
+		{
+			scale = [ 0.4, 0.2, 1 ];
+			trans = [ 0.5, 0.8,0 ];
+			image = "/game/ui/pause_menu/pause_menu_resume.png";
+			image_h = "/game/ui/pause_menu/pause_menu_resume_s.png";
+		},
+		widget button quit_to_main_menu
+		{
+			scale = [ 0.4, 0.2,  1 ];
+			trans = [ 0.5, 0.60, 0 ];
+			image = "/game/ui/pause_menu/pause_menu_quit_to_menu.png";
+			image_h = "/game/ui/pause_menu/pause_menu_quit_to_menu_s.png";
+		},
+		widget button quit_game
+		{
+			trans = [ 0.5, 0.40, 0  ];
+			scale = [ 0.4, 0.2, 1 ];
+			image = "/game/ui/pause_menu/pause_menu_quit_game.png";
+			image_h = "/game/ui/pause_menu/pause_menu_quit_game_s.png";
+		}
+	];
+};

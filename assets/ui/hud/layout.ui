@@ -1,0 +1,25 @@
+version = 1;
+widget panel hud
+{
+	scale = [ 1, 1, 1 ];
+	trans = [ 0, 0, 0 ];
+	widget_list = [
+		widget label
+		{
+			scale = [ 0.1, 0.1, 1 ];
+			trans = [ 0.04, 0.92, 0 ];
+			font  = "/game/ui/fonts/maturasc.ttf";
+			font_size = 32;
+			text  = "Score:";
+		},
+		widget label score1
+		{
+			scale = [ 0.05, 0.05, 1 ];
+			trans = [ 0.17, 0.92, 0 ];
+			font  = "/game/ui/fonts/maturasc.ttf";
+			font_size = 40;
+			text  = "324523";
+		}
+	];
+};
+	
